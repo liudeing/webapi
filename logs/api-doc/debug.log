@@ -1,0 +1,261 @@
+2017-06-09 18:09:33.984 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:09:33.990 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:09:34.008 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:09:34.025 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:09:34.026 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:09:34.029 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:09:34.032 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:09:34.034 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:09:34.036 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:09:34.037 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:09:34.037 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:12:35.323 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:12:35.328 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:12:35.345 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:12:35.356 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:12:35.356 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:12:35.358 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:12:35.360 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:12:35.362 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:12:35.364 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:12:35.365 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:12:35.366 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:12:35.937 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Context refreshed
+2017-06-09 18:12:35.938 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Found custom SwaggerSpringMvcPlugins
+2017-06-09 18:12:35.938 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v320
+2017-06-09 18:12:35.949 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:12:35.950 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:12:35.950 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:12:35.950 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:12:35.957 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:12:35.957 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v110
+2017-06-09 18:12:35.959 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:12:35.960 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:12:35.960 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:12:35.960 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:12:35.960 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:12:35.960 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean base
+2017-06-09 18:12:35.962 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:12:35.962 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:12:35.963 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:12:35.963 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:12:35.963 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:18:01.461 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:18:01.466 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:18:01.481 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:18:01.497 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:18:01.497 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:18:01.499 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:18:01.502 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:18:01.504 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:18:01.505 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:18:01.505 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:18:01.506 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:18:02.037 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Context refreshed
+2017-06-09 18:18:02.038 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Found custom SwaggerSpringMvcPlugins
+2017-06-09 18:18:02.038 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v320
+2017-06-09 18:18:02.047 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:18:02.048 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:18:02.048 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:18:02.048 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:18:02.054 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:18:02.055 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v110
+2017-06-09 18:18:02.058 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:18:02.058 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:18:02.058 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:18:02.058 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:18:02.058 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:18:02.059 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean base
+2017-06-09 18:18:02.061 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:18:02.061 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:18:02.061 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:18:02.061 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:18:02.061 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:26:04.159 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:26:04.163 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:26:04.171 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:26:04.180 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:26:04.180 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:26:04.182 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:26:04.183 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:26:04.184 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:26:04.185 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:26:04.185 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:26:04.185 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:26:04.394 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Context refreshed
+2017-06-09 18:26:04.395 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Found custom SwaggerSpringMvcPlugins
+2017-06-09 18:26:04.395 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v320
+2017-06-09 18:26:04.405 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:26:04.405 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:26:04.405 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:26:04.405 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:26:04.411 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:26:04.412 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v110
+2017-06-09 18:26:04.412 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:26:04.412 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:26:04.412 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:26:04.412 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:26:04.413 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:26:04.413 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean base
+2017-06-09 18:26:04.413 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:26:04.413 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:26:04.413 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:26:04.414 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:26:04.414 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:27:38.166 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:27:38.169 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:27:38.178 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:27:38.187 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:27:38.187 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:27:38.188 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:27:38.190 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:27:38.191 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:27:38.191 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:27:38.192 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:27:38.192 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:27:38.419 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Context refreshed
+2017-06-09 18:27:38.419 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Found custom SwaggerSpringMvcPlugins
+2017-06-09 18:27:38.420 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v320
+2017-06-09 18:27:38.426 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:27:38.427 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:27:38.427 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:27:38.427 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:27:38.432 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:27:38.432 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v110
+2017-06-09 18:27:38.432 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:27:38.433 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:27:38.433 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:27:38.433 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:27:38.433 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:27:38.433 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean base
+2017-06-09 18:27:38.434 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:27:38.434 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:27:38.434 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:27:38.434 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:27:38.434 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:30:32.300 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:30:32.303 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:30:32.311 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:30:32.320 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:30:32.320 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:30:32.321 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:30:32.323 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:30:32.324 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:30:32.325 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:30:32.325 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:30:32.325 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:30:32.537 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Context refreshed
+2017-06-09 18:30:32.538 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Found custom SwaggerSpringMvcPlugins
+2017-06-09 18:30:32.538 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v320
+2017-06-09 18:30:32.550 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:30:32.551 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:30:32.551 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:30:32.551 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:30:32.556 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:30:32.556 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v110
+2017-06-09 18:30:32.557 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:30:32.557 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:30:32.557 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:30:32.557 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:30:32.557 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:30:32.557 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean base
+2017-06-09 18:30:32.558 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:30:32.558 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:30:32.558 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:30:32.558 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:30:32.558 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:34:28.439 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:34:28.443 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:34:28.459 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:34:28.475 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:34:28.475 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:34:28.478 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:34:28.480 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:34:28.482 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:34:28.483 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:34:28.484 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:34:28.485 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:34:29.007 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Context refreshed
+2017-06-09 18:34:29.008 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Found custom SwaggerSpringMvcPlugins
+2017-06-09 18:34:29.008 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v320
+2017-06-09 18:34:29.019 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:34:29.020 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:34:29.020 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:34:29.020 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:34:29.025 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:34:29.025 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v110
+2017-06-09 18:34:29.026 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:34:29.027 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:34:29.027 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:34:29.027 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:34:29.027 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:34:29.027 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean base
+2017-06-09 18:34:29.029 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:34:29.029 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:34:29.029 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:34:29.030 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:34:29.030 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:39:18.780 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:39:18.787 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:39:18.812 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:39:18.833 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:39:18.834 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:39:18.836 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:39:18.846 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:39:18.848 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:39:18.850 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:39:18.850 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:39:18.851 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:39:19.202 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Context refreshed
+2017-06-09 18:39:19.203 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Found custom SwaggerSpringMvcPlugins
+2017-06-09 18:39:19.203 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v320
+2017-06-09 18:39:19.214 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:39:19.215 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:39:19.215 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:39:19.216 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:39:19.225 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:39:19.225 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v110
+2017-06-09 18:39:19.226 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:39:19.226 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:39:19.226 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:39:19.226 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:39:19.226 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:39:19.227 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean base
+2017-06-09 18:39:19.227 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:39:19.227 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:39:19.227 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:39:19.227 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:39:19.227 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:39:19.888 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Skipping SwaggerSpringMvcPlugin initialization already initialized!
+2017-06-09 18:45:20.675 [localhost-startStop-1] DEBUG org.jboss.logging -Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2017-06-09 18:45:20.678 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version -HV000001: Hibernate Validator 5.2.4.Final
+2017-06-09 18:45:20.689 [localhost-startStop-1] DEBUG o.h.v.i.e.r.DefaultTraversableResolver -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2017-06-09 18:45:20.698 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-06-09 18:45:20.699 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-06-09 18:45:20.700 [localhost-startStop-1] DEBUG o.h.v.i.engine.ConfigurationImpl -Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+2017-06-09 18:45:20.702 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-06-09 18:45:20.703 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via user class loader
+2017-06-09 18:45:20.704 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via TCCL
+2017-06-09 18:45:20.704 [localhost-startStop-1] DEBUG o.h.v.i.xml.ResourceLoaderHelper -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-06-09 18:45:20.705 [localhost-startStop-1] DEBUG o.h.v.i.xml.ValidationXmlParser -No META-INF/validation.xml found. Using annotation based configuration only.
+2017-06-09 18:45:20.968 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Context refreshed
+2017-06-09 18:45:20.969 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Found custom SwaggerSpringMvcPlugins
+2017-06-09 18:45:20.969 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v320
+2017-06-09 18:45:20.981 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:45:20.982 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:45:20.982 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:45:20.982 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:45:20.990 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:45:20.990 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean v110
+2017-06-09 18:45:20.991 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:45:20.991 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:45:20.992 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:45:20.992 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:45:20.992 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:45:20.992 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -initializing plugin bean base
+2017-06-09 18:45:20.993 [localhost-startStop-1] INFO  c.m.s.s.ApiListingReferenceScanner -Scanning for api listing references
+2017-06-09 18:45:20.993 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api/version],methods=[GET]}
+2017-06-09 18:45:20.993 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2017-06-09 18:45:20.994 [localhost-startStop-1] INFO  c.m.s.core.RequestMappingEvaluator -RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2017-06-09 18:45:20.994 [localhost-startStop-1] INFO  c.m.s.core.SwaggerApiResourceListing -Added a resource listing with (0) api resources: 
+2017-06-09 18:45:21.666 [localhost-startStop-1] INFO  c.m.s.plugin.SwaggerPluginAdapter -Skipping SwaggerSpringMvcPlugin initialization already initialized!

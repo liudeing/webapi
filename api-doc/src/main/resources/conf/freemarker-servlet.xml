@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+       http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+
+    <!-- 资源文件 -->
+    <context:property-placeholder location="classpath:/conf/setting-web.properties"/>
+
+    <!-- 扫描包路径 -->
+    <context:component-scan base-package="com.pz.**.controller.**,com.pz.core.**"/>
+
+    <!-- 转换器配置 -->
+    <bean id="mappingJacksonHttpMessageConverter"
+          class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <property name="objectMapper">
+            <!--自定义WebApi转换器-->
+            <bean class="com.pz.core.ApiObjectMapper"/>
+        </property>
+    </bean>
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <property name="messageConverters">
+            <list>
+                <ref bean="mappingJacksonHttpMessageConverter"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+        <property name="interceptors">
+            <list>
+                <!-- 语言区域拦截器 -->
+                <bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+                    <property name="paramName" value="lang"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 视图配置 -->
+    <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <property name="templateLoaderPath" value="/WEB-INF/ftl/"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+    <bean
+            class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+        <property name="cache" value="true"/>
+        <property name="prefix" value=""/>
+        <property name="suffix" value=".ftl"/>
+        <property name="exposeSpringMacroHelpers" value="true"/>
+        <property name="exposeRequestAttributes" value="true"/>
+        <property name="exposeSessionAttributes" value="true"/>
+        <property name="requestContextAttribute" value="request"/>
+        <property name="contentType" value="text/html; charset=utf-8"/>
+        <property name="allowSessionOverride" value="true"/>
+    </bean>
+
+    <!-- 文件上传 -->
+
+    <!-- 静态资源处理 -->
+    <mvc:default-servlet-handler/>
+
+    <!-- 定时任务 -->
+    <task:executor id="executor" pool-size="1"/>
+    <task:scheduler id="scheduler" pool-size="1"/>
+    <task:annotation-driven executor="executor" scheduler="scheduler"/>
+
+</beans>

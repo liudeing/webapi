@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+       default-lazy-init="false">
+
+    <!-- 启用注解 -->
+    <context:annotation-config/>
+
+    <context:component-scan base-package="com.pz">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+    </context:component-scan>
+
+    <!-- 资源文件 -->
+    <context:property-placeholder location="classpath:/conf/setting-web.properties" />
+
+    <!-- spring线程池，处理系统日志 -->
+    <bean id="sysTaskExecutor"
+          class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value="2"/>
+        <property name="maxPoolSize" value="5"/>
+        <property name="queueCapacity" value="1000"/>
+        <property name="rejectedExecutionHandler">
+            <bean class="java.util.concurrent.ThreadPoolExecutor$DiscardPolicy"/>
+        </property>
+    </bean>
+
+    <!-- 日志配置 -->
+    <bean id="loggingInitialization" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+        <property name="targetClass" value="com.pz.api.common.log.LogbackConfigurer"/>
+        <property name="targetMethod" value="initLogging"/>
+        <property name="arguments">
+            <list>
+                <value>classpath:conf/log/${log.cfg}_logging.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="paramFilter" class="com.pz.api.common.sign.ParamFilter"/>
+
+    <import resource="classpath:conf/bean/*.xml"/>
+</beans>

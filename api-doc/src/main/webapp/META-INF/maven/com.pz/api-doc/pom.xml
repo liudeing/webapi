@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.pz</groupId>
+        <artifactId>api-parent</artifactId>
+        <version>1.1.0</version>
+        <relativePath>../api-parent/pom.xml</relativePath>
+    </parent>
+    <artifactId>api-doc</artifactId>
+    <packaging>war</packaging>
+    <name>api-doc</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.pz</groupId>
+            <artifactId>api-biz</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+    
+    <!--scm-->
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.alibaba.citrus.tool</groupId>
+                <artifactId>autoconfig-maven-plugin</artifactId>
+                <version>1.2</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>autoconfig</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

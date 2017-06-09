@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group>
+        <!-- 日志级别 -->
+        <property name="log.cfg" defaultValue="dev" />
+
+        <!-- 是否启用API文档自动生成，dev环境为true，其他均为false -->
+        <property name="apidoc" defaultValue="true" />
+
+        <!--当前系统环境-->
+        <property name="api.env" defaultValue="dev"/>
+
+    </group>
+    <script>
+        <generate template="WEB-INF/classes/conf/setting-web.properties" charset="utf-8" outputCharset="utf-8"/>
+    </script>
+</config>
